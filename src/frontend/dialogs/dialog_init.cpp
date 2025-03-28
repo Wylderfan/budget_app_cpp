@@ -1,11 +1,9 @@
 #include "dialog_init.h"
 
-namespace frontend {
-namespace dialogs {
+namespace frontend::dialogs {
 
 void DialogInitializer::initialize() {
-    // Initialize dialog components here
+    // TODO: Initialize dialogs
 }
 
-} // namespace dialogs
-} // namespace frontend
+} // namespace frontend::dialogs

@@ -1,7 +1,6 @@
 #include "budget_manager.h"
 
-namespace backend {
-namespace services {
+namespace backend::services {
 
 BudgetManager& BudgetManager::getInstance() {
     static BudgetManager instance;
@@ -9,8 +8,7 @@ BudgetManager& BudgetManager::getInstance() {
 }
 
 void BudgetManager::initialize() {
-    // Initialize budget manager components here
+    // TODO: Implement budget manager initialization
 }
 
-} // namespace services
-} // namespace backend
+} // namespace backend::services

@@ -1,7 +1,6 @@
 #pragma once
 
-namespace backend {
-namespace db {
+namespace backend::db {
 
 class DBConnection {
 public:
@@ -10,10 +9,8 @@ public:
 
 private:
     DBConnection() = default;
-    ~DBConnection() = default;
     DBConnection(const DBConnection&) = delete;
     DBConnection& operator=(const DBConnection&) = delete;
 };
 
-} // namespace db
-} // namespace backend
+} // namespace backend::db

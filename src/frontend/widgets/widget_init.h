@@ -1,12 +1,10 @@
 #pragma once
 
-namespace frontend {
-namespace widgets {
+namespace frontend::widgets {
 
 class WidgetInitializer {
 public:
     static void initialize();
 };
 
-} // namespace widgets
-} // namespace frontend
+} // namespace frontend::widgets

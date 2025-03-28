@@ -1,7 +1,6 @@
 #pragma once
 
-namespace backend {
-namespace services {
+namespace backend::services {
 
 class BudgetManager {
 public:
@@ -10,10 +9,8 @@ public:
 
 private:
     BudgetManager() = default;
-    ~BudgetManager() = default;
     BudgetManager(const BudgetManager&) = delete;
     BudgetManager& operator=(const BudgetManager&) = delete;
 };
 
-} // namespace services
-} // namespace backend 
+} // namespace backend::services 

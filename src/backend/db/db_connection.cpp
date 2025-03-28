@@ -1,7 +1,6 @@
 #include "db_connection.h"
 
-namespace backend {
-namespace db {
+namespace backend::db {
 
 DBConnection& DBConnection::getInstance() {
     static DBConnection instance;
@@ -9,8 +8,7 @@ DBConnection& DBConnection::getInstance() {
 }
 
 void DBConnection::initialize() {
-    // Initialize database connection here
+    // TODO: Implement database initialization
 }
 
-} // namespace db
-} // namespace backend
+} // namespace backend::db

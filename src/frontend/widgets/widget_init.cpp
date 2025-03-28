@@ -1,11 +1,9 @@
 #include "widget_init.h"
 
-namespace frontend {
-namespace widgets {
+namespace frontend::widgets {
 
 void WidgetInitializer::initialize() {
-    // Initialize widget components here
+    // TODO: Initialize widgets
 }
 
-} // namespace widgets
-} // namespace frontend
+} // namespace frontend::widgets
