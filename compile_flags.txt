@@ -1,0 +1,4 @@
+-I/opt/homebrew/include
+-I/opt/homebrew/include/QtCore
+-I/opt/homebrew/include/QtWidgets
+-I/opt/homebrew/include/QtGui
